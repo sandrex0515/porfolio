@@ -1,4 +1,4 @@
-body{font-family: 'Chakra Petch', sans-serif;overflow: hidden;}
+ body{font-family: 'Chakra Petch', sans-serif;overflow: hidden;background: #ccc;}
 .boy{margin: 0;padding: 0;display: flex;align-items: center;justify-content: center;height: 100vh;
     background: #262626;}
 .noselect{font-size: 12px;line-height: 11px;background:url(../photos/1.jpg);background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body{font-family: 'Chakra Petch', sans-serif;overflow: hidden;}
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */}
-.ttype{color:#e1e7f2;font-size: 70px;text-align: center;padding-top: 100px;margin: 0 auto;
+.ttype{font-family: 'Chakra Petch', sans-serif;color:#e1e7f2;font-size: 70px;text-align: center;padding-top: 100px;margin: 0 auto;
         white-space: nowrap;border-right: 2px solid rgba(255, 255, 255, 0.75);
         overflow: hidden;transform: translateY(-50%);
         animation: typewriter 1.5s steps(15) 1s 1 normal both,
@@ -31,3 +31,130 @@ body{font-family: 'Chakra Petch', sans-serif;overflow: hidden;}
     from{border-right-color: rgba(255, 255, 255, 0.75);}
     to{border-right-color: transparent;}
 }
+.con{position: absolute;padding-left: 60%;padding-bottom: 10%;}
+.con .arrow{width: 12px;height: 20px;position: relative;float: left;top:6px;right:-1;}
+.con .arrow .inner{width: 0;height: 0;border-right: 15px solid #262626;
+                    border-top: 10px solid transparent;border-bottom: 10px solid transparent;
+                    position: absolute;top: 0; left:2px; }
+.con .msg{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
+            rgba(32, 31, 31, 0.5);
+            border:10px solid #262626;
+            padding: 6px 8px;
+            font-family: 'Chakra Petch', sans-serif;
+            font-size: 20px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -o-border-radius:5px;
+            border-radius: 5px;}
+.con .msg p{margin:0;color: #cccccc;}
+
+.con1{position: absolute;padding-left: 10%;margin-top: -530px;}
+.con1 .msg1{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
+            rgba(32, 31, 31, 0.5);
+            border:10px solid #262626;
+            padding: 6px 8px;
+            font-size: 20px;
+            font-family: 'Chakra Petch', sans-serif;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -o-border-radius:5px;
+            border-radius: 5px;}
+.con1 .msg1 p{margin:0;color: #cccccc;}
+
+.con2{position: absolute;padding-left: 73%;margin-top: -530px;}
+.con2 .msg2{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
+            rgba(32, 31, 31, 0.5);
+            border:10px solid #262626;
+            padding: 6px 8px;
+            font-size: 20px;
+            font-family: 'Chakra Petch', sans-serif;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -o-border-radius:5px;
+            border-radius: 5px;}
+.con2 .msg2 p{margin:0;color: #cccccc;}
+
+
+.con3{position: absolute;padding-left: 4%;margin-top: -410px;
+       -webkit-animation-delay: 6s;
+       animation-delay: 6s; 
+        }
+.con3 .msg3{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
+            rgba(32, 31, 31, 0.5);
+            border:10px solid #262626;
+            padding: 6px 8px;
+            font-size: 20px;
+            font-family: 'Chakra Petch', sans-serif;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -o-border-radius:5px;
+            border-radius: 5px;}
+.con3 .msg3 p{margin:0;color: #cccccc;}
+
+
+.con4{position: absolute;padding-left: 12%;margin-top: -300px;
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;             
+}
+.con4 .msg4{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
+            rgba(32, 31, 31, 0.5);
+            border:10px solid #262626;
+            padding: 6px 8px;
+            font-size: 20px;
+            font-family: 'Chakra Petch', sans-serif;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -o-border-radius:5px;
+            border-radius: 5px;}
+.con4 .msg4 p{margin:0;color: #cccccc;}
+
+.con5{position: absolute;padding-left: 74%;margin-top: -310px;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s; 
+
+}
+.con5 .msg5{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
+            rgba(32, 31, 31, 0.5);
+            border:10px solid #262626;
+            padding: 6px 8px;
+            font-size: 20px;
+            font-family: 'Chakra Petch', sans-serif;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -o-border-radius:5px;
+            border-radius: 5px;}
+.con5 .msg5 p{margin:0;color: #cccccc;}
+
+
+.con6{position: absolute;padding-left: 6%;margin-top: -180px;
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s; 
+    }
+.con6 .msg6{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
+            rgba(32, 31, 31, 0.5);
+            border:10px solid #262626;
+            padding: 6px 8px;
+            font-size: 20px;
+            font-family: 'Chakra Petch', sans-serif;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -o-border-radius:5px;
+            border-radius: 5px;}
+.con6 .msg6 p{margin:0;color: #cccccc;}
+
+
+.con7{position: absolute;padding-left: 65%;margin-top: -180px;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s; 
+}
+.con7 .msg7{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
+            rgba(32, 31, 31, 0.5);
+            border:10px solid #262626;
+            padding: 6px 8px;
+            font-size: 20px;
+            font-family: 'Chakra Petch', sans-serif;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -o-border-radius:5px;
+            border-radius: 5px;}
+.con7 .msg7 p{margin:0;color: #cccccc;}
