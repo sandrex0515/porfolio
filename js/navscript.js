@@ -1,3 +1,6 @@
+
+
+
 $(window).on('scroll', function(){
     if($(window).scrollTop()){
         $('nav').addClass('black');
@@ -6,3 +9,5 @@ $(window).on('scroll', function(){
         $('nav').removeClass('black');
     }
 })
+
+

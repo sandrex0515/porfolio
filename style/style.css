@@ -160,7 +160,7 @@ body{font-family: 'Chakra Petch', sans-serif;overflow: hidden;background-color: 
             border-radius: 5px;}
 .con7 .msg7 p{margin:0;color: #cccccc;}
 nav{position:fixed;top:0;left:0;width: 100%;height: 100px;padding:10px 100px;box-sizing: border-box;transition:.3s;}
-nav.black{background:rgba(192, 200, 211, 0.8);height: 100px;padding:10px 100px;}
+nav.black{background:rgba(24, 23, 24, 0.8);height: 100px;padding:10px 100px;}
 nav .logo{padding: 22px 20px; height: 80px; float:left;font-size: 24px;transition:.3s;color: #cccccc;}
 nav.black .logo{color: #fff;}
 nav ul{list-style: none;float: right;margin: 0;padding: 0;display: flex;}
@@ -168,5 +168,6 @@ nav ul li{list-style: none;}
 nav ul li a{line-height: 80px;color:#cccccc;padding:12px 30px;font-size: 19px;text-decoration:none!important;font-family: 'Indie Flower', cursive;
 
             text-transform: uppercase;transition:.3s;}
-nav.black ul li a{color: #000000;}
+nav.black ul li a{color: #cccccc;}
 nav ul li a:focus{outline:none;}
+.container h1{text-align: center;}
