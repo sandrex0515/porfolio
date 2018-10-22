@@ -169,15 +169,18 @@ nav .logo{
 nav .logo a{text-decoration: none!important;color: #cac5ca;}
 nav .logo a:hover,a:active,a:focus{border: 0px;}
 nav.black .logo{color: #fff;}
-nav.black .logo a{font-size: 24px;}
+nav.black .logo a{font-size: 24px;color: #fff;}
 nav ul{list-style: none;float: right;margin: 0;padding: 0;display: flex;}
 nav ul li{list-style: none;}
 nav ul li a{line-height: 80px;color:#cac5c5;padding:12px 30px;font-size: 19px;text-decoration:none!important;font-family: 'Indie Flower', cursive;
 
             text-transform: uppercase;transition:.3s;}
             nav ul li a:hover,a:active,a:focus{
-                    color:#fff;
+                    color:#fff;font-size: 21px;
                 border-top: 2px solid #cccccc;border-bottom: 2px solid #226622;border-top-width: 800%;}
-nav.black ul li a{color: #ffffff;font-size: 14px;padding-bottom: 7px;padding-top: 7px;}
+
+                nav.black ul li a{color: #ffffff;font-size: 14px;padding-bottom: 7px;padding-top: 7px;}
+nav.black ul li a:hover{font-size:16px;}
+active{background-repeat: repeat; border-top: 2px solid #cccccc;border-bottom: 2px solid #226622;border-top-width: 800%;}
 nav ul li a:focus{outline:none;}
 .container h1{text-align: center;}
