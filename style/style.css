@@ -49,7 +49,7 @@ body{font-family: 'Chakra Petch', sans-serif;overflow: hidden;background-color: 
             border-radius: 5px;}
 .con .msg p{margin:0;color: #cccccc;}
 
-.con1{position: absolute;padding-left: 10%;margin-top: -530px;}
+.con1{position: absolute;padding-left: 10%;margin-top: -520px;}
 .con1 .msg1{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
             rgba(32, 31, 31, 0.5);
             border:10px solid #262626;
@@ -62,7 +62,7 @@ body{font-family: 'Chakra Petch', sans-serif;overflow: hidden;background-color: 
             border-radius: 5px;}
 .con1 .msg1 p{margin:0;color: #cccccc;}
 
-.con2{position: absolute;padding-left: 73%;margin-top: -530px;}
+.con2{position: absolute;padding-left: 73%;margin-top: -515px;}
 .con2 .msg2{text-align:center;float: left;width: 300px;height: auto;border:10px solid #262626;background-color:
             rgba(32, 31, 31, 0.5);
             border:10px solid #262626;
@@ -160,14 +160,24 @@ body{font-family: 'Chakra Petch', sans-serif;overflow: hidden;background-color: 
             border-radius: 5px;}
 .con7 .msg7 p{margin:0;color: #cccccc;}
 nav{position:fixed;top:0;left:0;width: 100%;height: 100px;padding:10px 100px;box-sizing: border-box;transition:.3s;}
-nav.black{background:rgba(24, 23, 24, 0.8);height: 100px;padding:10px 100px;}
-nav .logo{padding: 22px 20px; height: 80px; float:left;font-size: 24px;transition:.3s;color: #cccccc;}
+nav.black{background:rgba(54, 129, 57, 0.8);height: 60px;padding:1px 100px;}
+nav .logo{
+    line-height: 30px;
+
+    padding: 22px 20px; height: 80px; float:left;font-size: 32px;font-family: 'Cedarville Cursive', cursive;
+    transition:.3s;color: #cccccc;}
+nav .logo a{text-decoration: none!important;color: #cac5ca;}
+nav .logo a:hover,a:active,a:focus{border: 0px;}
 nav.black .logo{color: #fff;}
+nav.black .logo a{font-size: 24px;}
 nav ul{list-style: none;float: right;margin: 0;padding: 0;display: flex;}
 nav ul li{list-style: none;}
-nav ul li a{line-height: 80px;color:#cccccc;padding:12px 30px;font-size: 19px;text-decoration:none!important;font-family: 'Indie Flower', cursive;
+nav ul li a{line-height: 80px;color:#cac5c5;padding:12px 30px;font-size: 19px;text-decoration:none!important;font-family: 'Indie Flower', cursive;
 
             text-transform: uppercase;transition:.3s;}
-nav.black ul li a{color: #cccccc;}
+            nav ul li a:hover,a:active,a:focus{
+                    color:#fff;
+                border-top: 2px solid #cccccc;border-bottom: 2px solid #226622;border-top-width: 800%;}
+nav.black ul li a{color: #ffffff;font-size: 14px;padding-bottom: 7px;padding-top: 7px;}
 nav ul li a:focus{outline:none;}
 .container h1{text-align: center;}
