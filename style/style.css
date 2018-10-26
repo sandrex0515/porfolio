@@ -177,10 +177,28 @@ nav ul li a{line-height: 80px;color:#cac5c5;padding:12px 30px;font-size: 19px;te
             text-transform: uppercase;transition:.3s;}
             nav ul li a:hover,a:active,a:focus{
                     color:#fff;font-size: 21px;
-                border-top: 2px solid #cccccc;border-bottom: 2px solid #226622;border-top-width: 800%;}
+                border-top: 2px solid #cccccc;border-bottom: 2px solid #262626;border-top-width: 800%;}
 
                 nav.black ul li a{color: #ffffff;font-size: 14px;padding-bottom: 7px;padding-top: 7px;}
 nav.black ul li a:hover{font-size:16px;}
 active{background-repeat: repeat; border-top: 2px solid #cccccc;border-bottom: 2px solid #226622;border-top-width: 800%;}
 nav ul li a:focus{outline:none;}
 .container h1{text-align: center;}
+.mypic{width: 50%;}
+.mess{width: 70%;}
+.mess p{font-size: 24px;font-family: 'Mali', cursive;
+}
+.mypic img{border-radius: 50%;border:3px solid #262626;display: block;transition:2s;-webkit-transition:2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;}
+.mypic img:hover{transition:2s;-webkit-transition:2s; -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+         }
+         .about{display: flex;justify-content:space-around;}
+        
